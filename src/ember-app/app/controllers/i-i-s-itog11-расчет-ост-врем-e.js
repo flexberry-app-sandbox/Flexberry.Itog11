@@ -11,7 +11,7 @@ export default EditFormController.extend({
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',
             remove: 'removeLookupValue',
-            displayAttributeName: '',
+            displayAttributeName: 'номер',
             required: true,
             relationName: 'договор',
             projection: 'ДоговорL',
@@ -23,7 +23,7 @@ export default EditFormController.extend({
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',
             remove: 'removeLookupValue',
-            displayAttributeName: '',
+            displayAttributeName: 'наименование',
             required: true,
             relationName: 'услуги',
             projection: 'УслугиL',

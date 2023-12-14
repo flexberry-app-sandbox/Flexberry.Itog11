@@ -22,43 +22,42 @@ export default Controller.extend({
             link: 'i-i-s-itog11-договор-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-договор-l.title'),
-            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-itog11-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'phone',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-itog11-затр-время-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-затр-время-l.title'),
-            icon: 'calendar',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-itog11-клиент-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-клиент-l.title'),
-            icon: 'file',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-itog11-длительность-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-длительность-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-длительность-l.title'),
-            icon: 'edit',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-itog11-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-расчет-ост-врем-l.title'),
-            icon: 'table',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-itog11-услуги-l',
             caption: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.itog11.i-i-s-itog11-услуги-l.title'),
-            icon: 'chart line',
+            icon: 'briefcase',
             children: null
           }]
         }

@@ -32,11 +32,12 @@ namespace IIS.Itog11
     [View("ОказУслугE", new string[] {
             "Дата as \'Дата\'",
             "ВремяКонсульт as \'Время консультаций\'",
-            "Договор as \'Договор\'",
-            "Договор.Номер as \'Номер договора\'",
-            "Услуги as \'Услуги\'",
-            "Услуги.Наименование as \'Наименование услуг\'",
+            "Договор as \'Номер договора\'",
+            "Договор.Длительность.Длительность as \'Длителньость\'",
+            "Услуги as \'Наименование\'",
             "Услуги.ЗатрВремя.ЗатрВремя as \'Затраченное время\'"})]
+    [MasterViewDefineAttribute("ОказУслугE", "Договор", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
+    [MasterViewDefineAttribute("ОказУслугE", "Услуги", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     public class ОказУслуг : ICSSoft.STORMNET.DataObject
     {
         
