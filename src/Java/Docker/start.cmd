@@ -1,0 +1,1 @@
+docker-compose -p itog11-java up -d
